@@ -9,7 +9,7 @@ admin_id = 6620890605
 # وقتی کاربر /start میزنه
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, "سلام! پیام ناشناس‌تو بنویس تا بفرستم برای صاحب ربات.")
+    bot.reply_to(message, " سلام! پیام ناشناس‌تو بنویس تا بفرستم برای صاحب ربات یعنی حسن.")
 
 # هر پیام متنی دیگه رو بگیره و برات بفرسته
 @bot.message_handler(func=lambda m: True)
